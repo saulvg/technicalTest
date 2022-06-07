@@ -15,3 +15,15 @@ const fib = (num) => {
   return { serie, result: serie[serie.length - 1] };
 };
 console.log(fib(10));
+
+
+//Another option
+
+const fib1 = (n, a = 0, b = 1) => new Array(n).fill("").reduce((ac)=>{
+  const temp = a
+  a = b
+  b = temp + b
+  ac.push(a)
+  return ac
+}, [0])
+console.log(fib1(10));
