@@ -1,3 +1,4 @@
+"use strict"
 //Given a number displays its fibonacci series
 //In the fibonacci series, the next number is the sum of the previews two
 /*

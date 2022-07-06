@@ -1,3 +1,4 @@
+"use strict"
 //The factorial of a number is the multiplication of all its previous numbers
 function factorial (n, nI=1) {
     
